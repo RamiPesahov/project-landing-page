@@ -20,6 +20,7 @@ ul{
 {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
     
 }
 .context
@@ -27,13 +28,34 @@ ul{
     display: flex;
     flex-direction: column;
     width: 400px;
+    padding-right: 12em;
 }
 button
 {
     width: fit-content;
+    padding-left:10px ;
+    padding-right:10px ;
 }
 .container
 {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #1F2937;
+}
+h2{
+    text-align: center;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
     
+}
+
+.card > img
+{
+    border:10px;
 }
