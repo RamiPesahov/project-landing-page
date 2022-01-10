@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.quote
+{
+    background-color: aqua;
+    size: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.context
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+button
+{
+    width: fit-content;
+}
+.container
+{
+    display: flex;
+    
+}
