@@ -28,20 +28,23 @@ ul{
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding-right: 12em;
+    /*padding-right: 12em;*/
 }
 button
 {
     width: fit-content;
     padding-left:10px ;
     padding-right:10px ;
+    background-color: #3882F6;
 }
 .container
 {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-bottom: 20px;
     background-color: #1F2937;
+    padding-bottom: 40px;
+    gap: 28em;
 }
 h2{
     text-align: center;
@@ -58,4 +61,28 @@ h2{
 .card > img
 {
     border:10px;
+}
+
+.context > div{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+.context > p {
+    color:#E5E7E8;
+    font-size: 18px;
+}
+.container > img{
+    width:400px;
+    height: 250px;
+    border: lightblue;   
+}
+.context > button {
+    border-color: #3882F6;
+}
+a {
+   color:#E5E7E8;;
+}
+h3 {
+    color: #F9FAF8;
 }
