@@ -2,6 +2,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.container , .cards {
+    margin-bottom: 10px;
+}
 .quote
 {
     background-color: aqua;
@@ -41,7 +44,6 @@ button
 {
     display: flex;
     justify-content:center;
-    margin-bottom: 20px;
     background-color: #1F2937;
     padding-bottom: 40px;
     gap: 28em;
@@ -54,13 +56,20 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
-    
-}
+    gap: 25px;
 
-.card > img
-{
-    border:10px;
+}
+.card {
+    width: 100px;
+    height: 100px;
+}
+.card > img {
+    width: 100px;
+    height: 80px;
+    border:10px #3882F6;
+}
+.card > p {
+    color: #636363;
 }
 
 .context > div{
@@ -74,7 +83,7 @@ h2{
 }
 .container > img{
     width:400px;
-    height: 250px;
+    height:244px;
     border: lightblue;   
 }
 .context > button {
@@ -85,4 +94,15 @@ a {
 }
 h3 {
     color: #F9FAF8;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-content: flex-end;
+}
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    flex: 1;
 }
