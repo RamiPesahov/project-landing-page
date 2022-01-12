@@ -1,115 +1,70 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     display: flex;
     flex-direction: column;
-}
-.container , .cards {
-    margin-bottom: 10px;
-}
-.quote
-{
-    background-color: aqua;
-    size: 20px;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 15px;
-}
-
-.header
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
-    flex-basis: 10%;
-}
-.context
-{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    /*padding-right: 12em;*/
-}
-button
-{
-    width: fit-content;
-    padding-left:10px ;
-    padding-right:10px ;
-    background-color: #3882F6;
-}
-.container
-{
-    display: flex;
-    justify-content:center;
-    background-color: #1F2937;
-    padding-bottom: 40px;
-    gap: 28em;
-    flex-basis: 20%;
-}
-h2{
-    text-align: center;
-}
-.cards
-{
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    flex-basis: 20%;
-    gap: 25px;
-
 }
-.card {
-    width: 100px;
-    height: 100px;
+.first-stage {
+    display: flex;
+    flex-direction: column;
+    padding: 0 170px;
+    background-color: #1F2937;
 }
-.card > img {
-    width: 100px;
-    height: 80px;
-    border:10px #3882F6;
+.header , .container{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
 }
-.card > p {
-    color: #636363;
-}
-
-.context > div{
+.context > div {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
 }
-.context > p {
-    color:#E5E7E8;
-    font-size: 18px;
+.context {
+    width: 400px;
+    flex-wrap: wrap;
 }
-.container > img{
-    width:400px;
-    height:244px;
-    border: lightblue;   
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
-.context > button {
-    border-color: #3882F6;
+li {
+  
+  text-decoration: none;
 }
 a {
-   color:#E5E7E8;;
-}
-h3 {
     color: #F9FAF8;
 }
-.quote {
-    background-color: #E5E7EB;
-    display: flex;
-    align-content: flex-end;
-    flex-basis: 20%;
+button {
+    background-color: #3882F6;
+    border:0;
+    border-radius: 90%;
+    padding: 5px;
+    
 }
-.contact {
-    flex-basis: 20%;
-}
-.footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+h2 {
     text-align: center;
-    flex: 1;
-    flex-basis: 10%;
+    padding-top: 15px;
+}
+.card > img, .card > p {
+    width: 200px;
+    height: 200px;
+}
+.card > img {
+    border-color: cyan;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: chartreuse;
+    margin-bottom: 0;
 }
