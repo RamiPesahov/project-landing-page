@@ -19,8 +19,10 @@ body {
    justify-content: space-between;
    padding-top: 20px;
    padding-bottom: 20px;
-  
 }
+ h3 {
+    color: #F9FAF8;
+ }
 .context > div {
     color: #F9FAF8;
     font-size: 48px;
@@ -89,4 +91,24 @@ h2 {
     font-family: 'light italic';
     align-self: flex-end;
 
+}
+.outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+
+    margin: 40px;
+    padding: 20px 40px;
+    background-color: cyan;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
