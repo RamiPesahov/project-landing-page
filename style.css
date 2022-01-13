@@ -28,6 +28,13 @@ body {
     font-size: 48px;
     font-weight: bold;
 }
+.context > p {
+    color: #919191;
+    margin-bottom: 10px;
+}
+.context > button {
+    border: 0;
+}
 .context {
     width: 400px;
     flex-wrap: wrap;
@@ -37,30 +44,31 @@ ul {
     display: flex;
     gap: 20px;
 }
-li {
-  
-  text-decoration: none;
-}
 a {
-    color: #F9FAF8;
+    color: #919191;
+    text-decoration: none;
 }
 button {
     background-color: #3882F6;
-    border:0;
-    border-radius: 90%;
-    padding: 5px;
-    
+    border-radius: 90px;
+    padding: 5px 10px;
+    color: white;
+    border-color: white;
 }
 h2 {
     text-align: center;
     padding-top: 15px;
+    font-size: 36px;
 }
 .card > img, .card > p {
     width: 200px;
     height: 200px;
 }
 .card > img {
-    border-color: cyan;
+    border-color: #3882F6;
+}
+.card {
+    flex-wrap: wrap;
 }
 .cards {
     display: flex;
@@ -94,21 +102,29 @@ h2 {
 }
 .outside {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .contact {
     flex: 1;
     display: flex;
-    justify-content: space-around;
-    align-items: center ;
-
     margin: 40px;
     padding: 20px 40px;
-    background-color: cyan;
+    background-color: #3882F6;
+    color: white;
+    gap: 60px;
+}
+.contact > button {
+    
 }
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding:5px 0 ;
+    gap: 10px;
 }
